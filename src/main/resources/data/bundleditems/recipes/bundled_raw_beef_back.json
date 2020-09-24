@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_raw_beef"
+        }
+    },
+    "result": {
+        "item": "minecraft:beef",
+        "count":9
+    }
+}

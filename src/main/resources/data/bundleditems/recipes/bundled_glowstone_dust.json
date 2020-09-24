@@ -1,0 +1,20 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:glowstone_dust"
+        },
+        "B": {
+            "item": "bundleditems:small_bottle"
+        }
+    },
+    "result": {
+        "item": "bundleditems:bundled_glowstone_dust",
+        "count":1
+    }
+}

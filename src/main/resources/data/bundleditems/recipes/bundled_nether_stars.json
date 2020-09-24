@@ -1,0 +1,17 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "bundleditems:bundled_nether_stars",
+        "count":1
+    }
+}

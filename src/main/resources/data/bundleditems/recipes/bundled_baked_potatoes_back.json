@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_baked_potatoes"
+        }
+    },
+    "result": {
+        "item": "minecraft:baked_potato",
+        "count":9
+    }
+}

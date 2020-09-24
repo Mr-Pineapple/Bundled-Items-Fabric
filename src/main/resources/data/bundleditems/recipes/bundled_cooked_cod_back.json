@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_cooked_cod"
+        }
+    },
+    "result": {
+        "item": "minecraft:cooked_cod",
+        "count":9
+    }
+}

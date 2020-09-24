@@ -1,0 +1,17 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:leather"
+        }
+    },
+    "result": {
+        "item": "bundleditems:bundled_leather",
+        "count":1
+    }
+}

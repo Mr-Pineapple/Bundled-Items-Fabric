@@ -1,0 +1,18 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:book"
+        }
+    },
+    "result": {
+        "item": "bundleditems:bundled_books",
+        "count":1
+    }
+}
+//Suggested by yfa75611

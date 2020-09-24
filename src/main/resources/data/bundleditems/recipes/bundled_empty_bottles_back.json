@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_empty_bottles"
+        }
+    },
+    "result": {
+        "item": "minecraft:glass_bottle",
+        "count":9
+    }
+}

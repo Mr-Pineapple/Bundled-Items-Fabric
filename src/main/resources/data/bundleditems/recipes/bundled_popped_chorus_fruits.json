@@ -1,0 +1,17 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:popped_chorus_fruit"
+        }
+    },
+    "result": {
+        "item": "bundleditems:bundled_popped_chorus_fruits",
+        "count":1
+    }
+}

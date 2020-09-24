@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "bundleditems:item/bundled_raw_mutton"
+    }
+}
