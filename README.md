@@ -1,4 +1,4 @@
-![Project icon](https://media.forgecdn.net/avatars/271/305/637247858036985736.png)
+![Project icon](https://i.imgur.com/tG6xZ0A.png)
 
 # Bundled Items (Fabric)
 ![GitHub issues](https://img.shields.io/github/issues/Mr-Pineapple/Bundled-Items-Fabric.svg)
@@ -20,7 +20,7 @@ Any other place that the mod has been released breaks the licence and should be 
 
 ### Issues
 
-You can either report issues in the [official Disocrd](https://discord.gg/57aUs83) or on the [issues page](https://github.com/Mr-Pineapple/Bundled-Items-Fabric/issues) on the GitHub.
+You can either report issues in the [official Discord](https://discord.gg/57aUs83) or on the [issues page](https://github.com/Mr-Pineapple/Bundled-Items-Fabric/issues) on the GitHub.
 
 ### Community
 
