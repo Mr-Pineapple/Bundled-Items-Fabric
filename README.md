@@ -1,4 +1,4 @@
-![Project icon](https://i.imgur.com/tG6xZ0A.png)
+![Project icon](https://i.imgur.com/18xzEQI.png)
 
 # Bundled Items (Fabric)
 ![GitHub issues](https://img.shields.io/github/issues/Mr-Pineapple/Bundled-Items-Fabric.svg)
