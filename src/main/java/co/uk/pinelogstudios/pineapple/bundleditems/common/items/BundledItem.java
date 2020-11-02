@@ -20,12 +20,13 @@ public class BundledItem extends Item {
 	
 	Item nonBundledItem;
 	int amount;
-	boolean hasBowl, hasVial;
+	boolean hasBowl, hasVial, isGlowing;
 	
 	public BundledItem(Item nonBundledItem) {
 		super(new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32));
 		this.nonBundledItem = nonBundledItem;
 		this.amount = 9;
+		this.isGlowing = false;
 	}
 	
 	public BundledItem(Item nonBundledItem, int amount, boolean hasBowl, boolean hasVail) {
@@ -34,11 +35,19 @@ public class BundledItem extends Item {
 		this.amount = amount;
 		this.hasBowl = hasBowl;
 		this.hasVial = hasVail;
+		this.isGlowing = false;
 	}
 	
 	public BundledItem(FabricItemSettings settings, Item nonBundledItem) {
 		super(settings);
 		this.nonBundledItem = nonBundledItem;
+		this.isGlowing = false;
+	}
+	
+	public BundledItem(FabricItemSettings settings, Item nonBundledItem, boolean isGlowing) {
+		super(settings);
+		this.nonBundledItem = nonBundledItem;
+		this.isGlowing = isGlowing;
 	}
 	
 	public BundledItem(FabricItemSettings settings, Item nonBundledItem, int amount, boolean hasBowl, boolean hasVail) {
@@ -47,6 +56,7 @@ public class BundledItem extends Item {
 		this.amount = amount;
 		this.hasBowl = hasBowl;
 		this.hasVial = hasVail;
+		this.isGlowing = false;
 	}
 	
 	@Override
@@ -95,6 +105,10 @@ public class BundledItem extends Item {
 	
 	void giveContainerItem(PlayerEntity player, Item item) {
 		player.inventory.insertStack(new ItemStack(item));
+	}
+	
+	public boolean hasGlint(ItemStack stack) {
+		return this.isGlowing;
 	}
 	
 }

@@ -1,0 +1,17 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cooked_chicken"
+        }
+    },
+    "result": {
+        "item": "bundleditems:bundled_cooked_chicken",
+        "count":1
+    }
+}

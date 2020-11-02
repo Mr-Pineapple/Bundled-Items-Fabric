@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_wheat_seeds"
+        }
+    },
+    "result": {
+        "item": "minecraft:wheat_seeds",
+        "count": 9
+    }
+}

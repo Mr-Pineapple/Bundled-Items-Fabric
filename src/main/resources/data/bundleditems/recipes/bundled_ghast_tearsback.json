@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_ghast_tears"
+        }
+    },
+    "result": {
+        "item": "minecraft:ghast_tear",
+        "count":9
+    }
+}

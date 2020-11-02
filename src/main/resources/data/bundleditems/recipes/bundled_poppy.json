@@ -1,0 +1,20 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:poppy"
+        },
+        "B": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "item": "bundleditems:bundled_poppies",
+        "count": 1
+    }
+}

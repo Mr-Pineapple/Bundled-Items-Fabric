@@ -1,0 +1,20 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:red_tulip"
+        },
+        "B": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "item": "bundleditems:bundled_red_tulips",
+        "count": 1
+    }
+}

@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:glass"
+        }
+    },
+    "result": {
+        "item": "bundleditems:small_bottle",
+        "count":6
+    }
+}

@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_glowstone_dust"
+        }
+    },
+    "result": {
+        "item": "minecraft:glowstone_dust",
+        "count":8
+    }
+}

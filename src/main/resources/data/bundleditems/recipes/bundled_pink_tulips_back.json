@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_pink_tulips"
+        }
+    },
+    "result": {
+        "item": "minecraft:pink_tulip",
+        "count": 8
+    }
+}

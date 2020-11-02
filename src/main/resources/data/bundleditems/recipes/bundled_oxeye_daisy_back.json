@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_oxeye_daisy"
+        }
+    },
+    "result": {
+        "item": "minecraft:oxeye_daisy",
+        "count": 8
+    }
+}

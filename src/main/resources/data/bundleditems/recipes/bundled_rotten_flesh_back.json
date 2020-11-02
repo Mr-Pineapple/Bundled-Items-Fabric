@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_rotten_flesh"
+        }
+    },
+    "result": {
+        "item": "minecraft:rotten_flesh",
+        "count":9
+    }
+}

@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_raw_chicken"
+        }
+    },
+    "result": {
+        "item": "minecraft:chicken",
+        "count":9
+    }
+}

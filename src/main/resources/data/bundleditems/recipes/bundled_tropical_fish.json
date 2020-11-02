@@ -1,0 +1,17 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:tropical_fish"
+        }
+    },
+    "result": {
+        "item": "bundleditems:bundled_tropical_fish",
+        "count": 1
+    }
+}

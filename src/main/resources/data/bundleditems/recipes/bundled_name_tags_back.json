@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_name_tags"
+        }
+    },
+    "result": {
+        "item": "minecraft:name_tag",
+        "count":9
+    }
+}

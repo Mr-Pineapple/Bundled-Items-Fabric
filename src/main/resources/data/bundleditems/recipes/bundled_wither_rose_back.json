@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_wither_roses"
+        }
+    },
+    "result": {
+        "item": "minecraft:wither_rose",
+        "count": 8
+    }
+}

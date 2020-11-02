@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_fireworks"
+        }
+    },
+    "result": {
+        "item": "minecraft:firework_rocket",
+        "count":9
+    }
+}

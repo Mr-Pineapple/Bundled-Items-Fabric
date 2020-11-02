@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_lilies_of_the_valley"
+        }
+    },
+    "result": {
+        "item": "minecraft:lily_of_the_valley",
+        "count":8
+    }
+}

@@ -6,6 +6,8 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
+import net.minecraft.potion.PotionUtil;
+import net.minecraft.potion.Potions;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
@@ -30,7 +32,7 @@ public class ItemList {
 		registerItem("raw_rabbit", Items.RABBIT);
 		registerItem("cooked_rabbit", Items.COOKED_RABBIT);
 		registerItem("cookies", Items.COOKIE);
-		registerItem("potatoes", Items.POTATO);
+		registerItem("potatoes", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.POTATO, 8, true, false);
 		registerItem("baked_potatoes", Items.BAKED_POTATO);
 		registerItem("rotten_flesh", Items.ROTTEN_FLESH);
 		registerItem("carrots", Items.CARROT);
@@ -54,11 +56,7 @@ public class ItemList {
 		registerItem("clay_balls", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.CLAY_BALL, 8, true, false);
 		registerItem("flints", Items.FLINT);
 		registerItem("name_tags", Items.NAME_TAG);
-		Registry.register(Registry.ITEM, new Identifier(BundledItems.MOD_ID, "bundled_nether_stars"), new BundledItem(new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).rarity(Rarity.UNCOMMON), Items.NETHER_STAR) {
-		@Override
-		public boolean hasGlint(ItemStack stack) {
-			return true;
-		}});
+		Registry.register(Registry.ITEM, new Identifier(BundledItems.MOD_ID, "bundled_nether_stars"), new BundledItem(new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).rarity(Rarity.UNCOMMON), Items.NETHER_STAR, true));
 		registerItem("nether_warts", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.NETHER_WART, 8, true, false);
 		registerItem("netherbricks", Items.NETHER_BRICK);
 		registerItem("sugar_cane", Items.SUGAR_CANE);
@@ -69,9 +67,8 @@ public class ItemList {
 		registerItem("slimeballs", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.SLIME_BALL, 8, true, false);
 		registerItem("leather", Items.LEATHER);
 		registerItem("empty_bottles", Items.GLASS_BOTTLE);
-		registerItem("water_bottles", Items.GLASS_BOTTLE);
+		registerItem("water_bottles", PotionUtil.setPotion(new ItemStack(Items.POTION), Potions.WATER).getItem());
 		registerItem("sugar", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(GLASS_VIAL), Items.SUGAR, 8, false, true);
-		
 		registerItem("kelp", Items.KELP);
 		registerItem("dried_kelp", Items.DRIED_KELP);
 		registerItem("bamboo", Items.BAMBOO);
@@ -87,7 +84,6 @@ public class ItemList {
 		registerItem("pufferfish", Items.PUFFERFISH);
 		registerItem("cooked_cod", Items.COOKED_COD);
 		registerItem("cooked_salmon", Items.COOKED_SALMON);
-		
 		registerItem("alliums", Items.ALLIUM);
 		registerItem("azure_bluets", Items.AZURE_BLUET);
 		registerItem("blue_orchids", Items.BLUE_ORCHID);
@@ -113,7 +109,6 @@ public class ItemList {
 		registerItem("acacia_saplings", Items.ACACIA_SAPLING);
 		registerItem("dark_oak_saplings", Items.DARK_OAK_SAPLING);
 		registerItem("honey_bottles", Items.HONEY_BOTTLE);
-		registerItem("quiver", null);
 		
 		SECRET_ITEM = registerItemNoProperties("secret_item", new FabricItemSettings());
 		

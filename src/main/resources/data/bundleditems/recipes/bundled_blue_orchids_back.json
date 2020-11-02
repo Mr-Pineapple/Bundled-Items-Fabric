@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_blue_orchids"
+        }
+    },
+    "result": {
+        "item": "minecraft:blue_orchid",
+        "count":8
+    }
+}

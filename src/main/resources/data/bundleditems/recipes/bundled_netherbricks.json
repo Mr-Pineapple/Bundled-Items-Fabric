@@ -1,0 +1,17 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:nether_brick"
+        }
+    },
+    "result": {
+        "item": "bundleditems:bundled_netherbricks",
+        "count":1
+    }
+}

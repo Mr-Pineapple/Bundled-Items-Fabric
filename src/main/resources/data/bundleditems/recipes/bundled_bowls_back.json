@@ -1,0 +1,16 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_bowls"
+        }
+    },
+    "result": {
+        "item": "minecraft:bowl",
+        "count":9
+    }
+}
+//Suggested by yfa75611

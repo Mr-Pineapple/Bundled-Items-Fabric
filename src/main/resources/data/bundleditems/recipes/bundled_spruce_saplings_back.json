@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_spruce_saplings"
+        }
+    },
+    "result": {
+        "item": "minecraft:spruce_sapling",
+        "count":9
+    }
+}

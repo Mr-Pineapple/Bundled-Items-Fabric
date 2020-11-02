@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_azure_bluets"
+        }
+    },
+    "result": {
+        "item": "minecraft:azure_bluet",
+        "count":8
+    }
+}

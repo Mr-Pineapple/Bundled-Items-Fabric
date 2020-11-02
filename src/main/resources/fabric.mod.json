@@ -6,14 +6,15 @@
   "name": "Bundled Items",
   "description": "A mod that lets you bundle your items, so they take up less valuable space in your inventory.",
   "authors": [
-	"Mr. Pineapple - Fabric Port",
+	"Mr. Pineapple - Fabric Porter",
   	"Enderman842 - Creator",
   	"Snowylagito_ - Art",
-    "idrae_ - French Translation"
+    "idrae_ - French Translation",
+    "Sindarin - Dutch Translation"
   ],
   "contact": {
     "homepage": "https://discord.gg/57aUs83",
-    "sources": "http://curseforge.com/minecraft/mc-mods/bundled-items"
+    "sources": "http://curseforge.com/minecraft/mc-mods/bundled-items-fabric"
   },
 
   "license": "All Rights Reserved",
@@ -22,7 +23,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "co.uk.pinelogstudios.pineapple.bundleditems.BundledItems"
+      "co.uk.pinelogstudios.pineapple.bundleditems.core.BundledItems"
     ]
   },
   

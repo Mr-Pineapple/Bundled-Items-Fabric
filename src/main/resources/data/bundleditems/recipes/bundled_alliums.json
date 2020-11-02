@@ -1,0 +1,20 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:allium"
+        },
+        "B": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "item": "bundleditems:bundled_alliums",
+        "count": 1
+    }
+}
