@@ -1,0 +1,17 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "bundleditems:bundled_string",
+        "count":1
+    }
+}

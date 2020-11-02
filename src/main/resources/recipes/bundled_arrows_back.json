@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_arrows"
+        }
+    },
+    "result": {
+        "item": "minecraft:arrow",
+        "count":8
+    }
+}

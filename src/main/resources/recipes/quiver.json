@@ -1,0 +1,16 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:leather"
+        }
+    },
+    "result": {
+        "item": "bundleditems:quiver",
+        "count": 1
+    }
+}

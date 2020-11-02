@@ -1,0 +1,21 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:potato"
+        },
+		"B": {
+            "item": "minecraft:bowl"
+        }
+    },
+    "result": {
+        "item": "bundleditems:bundled_potatoes",
+        "count":1
+    }
+}
+

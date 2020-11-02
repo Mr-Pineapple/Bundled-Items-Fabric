@@ -1,0 +1,16 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_water_bottles"
+        }
+    },
+    "result": {
+        "item": "minecraft:potion",
+        "nbt": "{Potion:water}",
+        "count":9
+    }
+}

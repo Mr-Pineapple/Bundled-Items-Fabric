@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_golden_apples"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_apple",
+        "count":9
+    }
+}

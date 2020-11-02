@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_cornflowers"
+        }
+    },
+    "result": {
+        "item": "minecraft:cornflower",
+        "count":8
+    }
+}

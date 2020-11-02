@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_honey"
+        }
+    },
+    "result": {
+        "item": "minecraft:honey_bottle",
+        "count":9
+    }
+}

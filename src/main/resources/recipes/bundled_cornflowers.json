@@ -1,0 +1,20 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cornflower"
+        },
+        "B": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "item": "bundleditems:bundled_cornflowers",
+        "count": 1
+    }
+}

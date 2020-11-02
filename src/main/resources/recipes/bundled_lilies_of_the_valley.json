@@ -1,0 +1,20 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:lily_of_the_valley"
+        },
+        "B": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "item": "bundleditems:bundled_lilies_of_the_valley",
+        "count": 1
+    }
+}

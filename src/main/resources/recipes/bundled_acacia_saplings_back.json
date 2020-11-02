@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_acacia_saplings"
+        }
+    },
+    "result": {
+        "item": "minecraft:acacia_sapling",
+        "count":9
+    }
+}

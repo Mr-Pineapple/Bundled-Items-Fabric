@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_clay_balls"
+        }
+    },
+    "result": {
+        "item": "minecraft:clay_ball",
+        "count":9
+    }
+}

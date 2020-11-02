@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bundleditems:bundled_nether_warts"
+        }
+    },
+    "result": {
+        "item": "minecraft:nether_wart",
+        "count":8
+    }
+}
