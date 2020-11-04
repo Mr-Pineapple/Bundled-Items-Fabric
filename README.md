@@ -1,29 +1,45 @@
-![Project icon](https://i.imgur.com/18xzEQI.png)
+![Bundled Items](https://i.imgur.com/nKRkIA6.png)
 
 # Bundled Items (Fabric)
-![GitHub issues](https://img.shields.io/github/issues/Mr-Pineapple/Bundled-Items-Fabric.svg)
-[![Discord chat](https://img.shields.io/badge/chat%20on-discord-7289DA)](https://discord.gg/57aUs83)
-[![CurseForge downloads](http://cf.way2muchnoise.eu/full_bundled-items_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/bundled-items)
+![GitHub issues](https://img.shields.io/github/issues/Mr-Pineapple/Bundled-Items-fabric.svg)
+[![Discord chat](https://img.shields.io/badge/chat%20on-discord-7289DA)](https://discord.gg/mBDuneX)
+[![CurseForge downloads](http://cf.way2muchnoise.eu/full_bundled-items_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/bundled-items-fabric)
 
-Bundled Items is a Minecraft mod for version 1.7.10 -> 1.16.3 which adds a new bundled item for a bunch of existing
-items. To craft the bundled items, place 9 of the items in the 3x3 crafting table, some recipes require a bowl
-or a glass vial in the center. The max stack of bundled items is 32, so that means in one slot you could carry up to
-288 items! This mod is aimed to help inventory management and to help with storage.
+### 📖 About
 
-If you have the bundled item in your hotbar, you can shift right click it and it will unbundle, if the recipe
-contained a bowl/vial this will also be given back.
+Bundled Items is a mod which allows you to bundle 9 items into one. This allows for some simple inventory management, by allowing you to carry more items in one slot. A bundled item will stack to a max of 32, allowing you to store up to, at most 288 items in one slot. Some items bundle together in eights, as they require a bowl or a glass vial, such as the apples, potatoes and snowballs.
 
-### Downloads
+### ⛏️ Recipes
 
-You can find downloads for the mod on the [official CurseForge page](https://www.curseforge.com/minecraft/mc-mods/bundled-items).
+Recipes for items in this mod are very similar. Most of the recipes just consist of nine of the items in a 3x3 crafting grid. However some contain bowls, and vials, recipes can be found below:
+
+![Bundled Recipe](https://i.imgur.com/lcnqYdC.gif) ![Flower Bundle](https://i.imgur.com/Tfri6ft.gif)
+
+![Bowl Bundle](https://i.imgur.com/2AeDOns.gif) ![Vial Bundle](https://i.imgur.com/bdt8FPY.gif)
+
+![Vial Recipe](https://i.imgur.com/RUVhsgJ.png)
+
+### ▶️ Downloads
+
+You can find downloads for the mod on the [official CurseForge page](https://www.curseforge.com/minecraft/mc-mods/bundled-items-fabric).
+
 Any other place that the mod has been released breaks the licence and should be reported.
 
-### Issues
+### ℹ️ Issues
 
-You can either report issues in the [official Discord](https://discord.gg/57aUs83) or on the [issues page](https://github.com/Mr-Pineapple/Bundled-Items-Fabric/issues) on the GitHub.
+You can either report issues in the [official Discord](https://discord.gg/mBDuneX) or on the [issues page](https://github.com/Mr-Pineapple/Bundled-Items-Fabric/issues) on GitHub.
 
-### Community
+### 👦 Community
 
-If you'd like to join the discord server and suggest features to implement, help or just hang around you can join [here!](https://discord.gg/57aUs83).
+If you'd like to join the discord server and suggest features to implement, help or just hang around you can join [here!](https://discord.gg/mBDuneX).
+My personal discord can be found [here](https://discord.gg/mNWSEB5).
+
+### ⬆️ Updates
+
+This mod will be updated alongside the Forge version.
+
+### ⌛ Loader
+
+This is the repo for the Fabric version of the mod, I only maintain this version. I do not maintain the Forge version of this mod. [Click here for the Forge version](https://www.curseforge.com/minecraft/mc-mods/bundled-items)
 
 ---
