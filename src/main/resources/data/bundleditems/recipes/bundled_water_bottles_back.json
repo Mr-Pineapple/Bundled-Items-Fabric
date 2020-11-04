@@ -5,11 +5,13 @@
     ],
     "key": {
         "#": {
-            "item": "bundleditems:bundled_clay_balls"
+            "item": "bundleditems:bundled_water_bottles"
         }
     },
     "result": {
-        "item": "minecraft:clay_ball",
-        "count": 8
+        "item": "minecraft:potion",
+		"data": 1,
+		"count": 1
+		
     }
 }

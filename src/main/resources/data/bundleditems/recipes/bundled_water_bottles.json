@@ -2,19 +2,17 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "#B#",
+        "###",
         "###"
     ],
     "key": {
         "#": {
-            "item": "minecraft:clay_ball"
-        },
-        "B": {
-        	"item": "minecraft:bowl"
+            "item": "minecraft:potion",
+            "data": 1
         }
     },
     "result": {
-        "item": "bundleditems:bundled_clay_balls",
+        "item": "bundleditems:bundled_water_bottles",
         "count": 1
     }
 }

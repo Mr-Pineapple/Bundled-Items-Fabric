@@ -20,7 +20,7 @@ public class BundledItem extends Item {
 	
 	Item nonBundledItem;
 	int amount;
-	boolean hasBowl, hasVial, isGlowing;
+	boolean hasBowl, hasVial, hasQuiver, isGlowing;
 	
 	public BundledItem(Item nonBundledItem) {
 		super(new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32));
@@ -29,12 +29,13 @@ public class BundledItem extends Item {
 		this.isGlowing = false;
 	}
 	
-	public BundledItem(Item nonBundledItem, int amount, boolean hasBowl, boolean hasVail) {
+	public BundledItem(Item nonBundledItem, int amount, boolean hasBowl, boolean hasVail, boolean hasQuiver) {
 		super(new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32));
 		this.nonBundledItem = nonBundledItem;
 		this.amount = amount;
 		this.hasBowl = hasBowl;
 		this.hasVial = hasVail;
+		this.hasQuiver = hasQuiver;
 		this.isGlowing = false;
 	}
 	
@@ -50,12 +51,13 @@ public class BundledItem extends Item {
 		this.isGlowing = isGlowing;
 	}
 	
-	public BundledItem(FabricItemSettings settings, Item nonBundledItem, int amount, boolean hasBowl, boolean hasVail) {
+	public BundledItem(FabricItemSettings settings, Item nonBundledItem, int amount, boolean hasBowl, boolean hasVail, boolean hasQuiver) {
 		super(settings);
 		this.nonBundledItem = nonBundledItem;
 		this.amount = amount;
 		this.hasBowl = hasBowl;
 		this.hasVial = hasVail;
+		this.hasQuiver = hasQuiver;
 		this.isGlowing = false;
 	}
 	
@@ -80,6 +82,14 @@ public class BundledItem extends Item {
 					giveContainerItem(player, ItemList.GLASS_VIAL);
 				} else {
 					world.spawnEntity(new ItemEntity(world, pos.getX() + 0.5, pos.getY() + 1.25, pos.getZ() + 0.5, new ItemStack(ItemList.GLASS_VIAL)));
+				}
+			} if(this.hasQuiver) {
+				if(player.inventory.getEmptySlot() != -1) {
+					giveContainerItem(player, ItemList.QUIVER);
+				} else if(player.inventory.contains(new ItemStack(ItemList.GLASS_VIAL))) {
+					giveContainerItem(player, ItemList.QUIVER);
+				} else {
+					world.spawnEntity(new ItemEntity(world, pos.getX() + 0.5, pos.getY() + 1.25, pos.getZ() + 0.5, new ItemStack(ItemList.QUIVER)));
 				}
 			}
 			

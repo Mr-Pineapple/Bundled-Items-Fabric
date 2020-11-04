@@ -6,8 +6,6 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
-import net.minecraft.potion.PotionUtil;
-import net.minecraft.potion.Potions;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
@@ -17,7 +15,7 @@ import net.minecraft.util.registry.Registry;
  */
 public class ItemList {
 	
-	public static Item SECRET_ITEM, GLASS_VIAL;
+	public static Item SECRET_ITEM, GLASS_VIAL, QUIVER;
 	
 	public static void registerItems() {
 		registerItem("porkchop", Items.PORKCHOP);
@@ -32,13 +30,13 @@ public class ItemList {
 		registerItem("raw_rabbit", Items.RABBIT);
 		registerItem("cooked_rabbit", Items.COOKED_RABBIT);
 		registerItem("cookies", Items.COOKIE);
-		registerItem("potatoes", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.POTATO, 8, true, false);
+		registerItem("potatoes", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.POTATO, 8, true, false, false);
 		registerItem("baked_potatoes", Items.BAKED_POTATO);
 		registerItem("rotten_flesh", Items.ROTTEN_FLESH);
 		registerItem("carrots", Items.CARROT);
 		registerItem("golden_carrots", Items.GOLDEN_CARROT);
 		registerItem("blaze_rods", Items.BLAZE_ROD);
-		registerItem("arrows", Items.ARROW);
+		registerItem("arrows", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(QUIVER), Items.ARROW, 8, false, false, true);
 		registerItem("bones", Items.BONE);
 		registerItem("sticks", Items.STICK);
 		registerItem("fireworks", Items.FIREWORK_ROCKET);
@@ -48,32 +46,33 @@ public class ItemList {
 		registerItem("chorus_fruits", Items.CHORUS_FRUIT);
 		registerItem("popped_chorus_fruits", Items.POPPED_CHORUS_FRUIT);
 		registerItem("buckets", Items.BUCKET);
-		registerItem("apples", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.APPLE, 8, true, false);
-		registerItem("golden_apples", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL),  Items.GOLDEN_APPLE, 8, true, false);
-		registerItem("snowballs", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.SNOWBALL, 8, true, false);
+		registerItem("apples", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.APPLE, 8, true, false, false);
+		registerItem("golden_apples", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL),  Items.GOLDEN_APPLE, 8, true, false, false);
+		registerItem("snowballs", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.SNOWBALL, 8, true, false, false);
 		registerItem("bowls", Items.BOWL);
 		registerItem("bricks", Items.BRICK);
-		registerItem("clay_balls", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.CLAY_BALL, 8, true, false);
+		registerItem("clay_balls", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.CLAY_BALL, 8, true, false, false);
 		registerItem("flints", Items.FLINT);
 		registerItem("name_tags", Items.NAME_TAG);
 		Registry.register(Registry.ITEM, new Identifier(BundledItems.MOD_ID, "bundled_nether_stars"), new BundledItem(new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).rarity(Rarity.UNCOMMON), Items.NETHER_STAR, true));
-		registerItem("nether_warts", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.NETHER_WART, 8, true, false);
+		registerItem("nether_warts", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.NETHER_WART, 8, true, false, false);
 		registerItem("netherbricks", Items.NETHER_BRICK);
 		registerItem("sugar_cane", Items.SUGAR_CANE);
-		registerItem("glowstone_dust", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(GLASS_VIAL), Items.GLOWSTONE_DUST, 8, false, true);
-		registerItem("gunpowder", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(GLASS_VIAL), Items.GUNPOWDER, 8, false, true);
-		registerItem("redstone", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(GLASS_VIAL), Items.REDSTONE, 8, false, true);
-		registerItem("blaze_powder", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.BLAZE_POWDER, 8, true, false);
-		registerItem("slimeballs", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.SLIME_BALL, 8, true, false);
+		registerItem("glowstone_dust", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(GLASS_VIAL), Items.GLOWSTONE_DUST, 8, false, true, false);
+		registerItem("gunpowder", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(GLASS_VIAL), Items.GUNPOWDER, 8, false, true, false);
+		registerItem("redstone", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(GLASS_VIAL), Items.REDSTONE, 8, false, true, false);
+		registerItem("blaze_powder", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.BLAZE_POWDER, 8, true, false, false);
+		registerItem("slimeballs", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(Items.BOWL), Items.SLIME_BALL, 8, true, false, false);
 		registerItem("leather", Items.LEATHER);
 		registerItem("empty_bottles", Items.GLASS_BOTTLE);
-		registerItem("water_bottles", PotionUtil.setPotion(new ItemStack(Items.POTION), Potions.WATER).getItem());
-		registerItem("sugar", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(GLASS_VIAL), Items.SUGAR, 8, false, true);
+		registerItemNoProperties("bundled_water_bottles", new FabricItemSettings());
+		registerItem("sugar", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).recipeRemainder(GLASS_VIAL), Items.SUGAR, 8, false, true, false);
 		registerItem("kelp", Items.KELP);
 		registerItem("dried_kelp", Items.DRIED_KELP);
 		registerItem("bamboo", Items.BAMBOO);
 		GLASS_VIAL = registerItemNoProperties("small_bottle", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(64));
-		Registry.register(Registry.ITEM, new Identifier(BundledItems.MOD_ID, "bundled_enchanted_golden_apples"), new BundledItem(new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).rarity(Rarity.EPIC).recipeRemainder(Items.BOWL), Items.ENCHANTED_GOLDEN_APPLE, 8, true, false) {
+		QUIVER = registerItemNoProperties("quiver", new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(16));
+		Registry.register(Registry.ITEM, new Identifier(BundledItems.MOD_ID, "bundled_enchanted_golden_apples"), new BundledItem(new FabricItemSettings().group(BundledItems.ITEM_GROUP).maxCount(32).rarity(Rarity.EPIC).recipeRemainder(Items.BOWL), Items.ENCHANTED_GOLDEN_APPLE, 8, true, false, false) {
 			@Override
 			public boolean hasGlint(ItemStack stack) {
 				return true;
@@ -109,7 +108,6 @@ public class ItemList {
 		registerItem("acacia_saplings", Items.ACACIA_SAPLING);
 		registerItem("dark_oak_saplings", Items.DARK_OAK_SAPLING);
 		registerItem("honey_bottles", Items.HONEY_BOTTLE);
-		
 		SECRET_ITEM = registerItemNoProperties("secret_item", new FabricItemSettings());
 		
 	}
@@ -118,8 +116,8 @@ public class ItemList {
 		Registry.register(Registry.ITEM, new Identifier(BundledItems.MOD_ID, "bundled_" + name), new BundledItem(nonBundledItem));
 	}
 	
-	private static void registerItem(String name, FabricItemSettings settings, Item nonBundledItem, int amount, boolean hasBowl, boolean hasVial) {
-		Registry.register(Registry.ITEM, new Identifier(BundledItems.MOD_ID, "bundled_" + name), new BundledItem(settings, nonBundledItem, amount, hasBowl, hasVial));
+	private static void registerItem(String name, FabricItemSettings settings, Item nonBundledItem, int amount, boolean hasBowl, boolean hasVial, boolean hasQuiver) {
+		Registry.register(Registry.ITEM, new Identifier(BundledItems.MOD_ID, "bundled_" + name), new BundledItem(settings, nonBundledItem, amount, hasBowl, hasVial, hasQuiver));
 	}
 	
 	private static Item registerItemNoProperties(String name, FabricItemSettings settings) {

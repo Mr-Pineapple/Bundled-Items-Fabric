@@ -1,15 +1,16 @@
 ﻿{
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#"
+        "##",
+        "##"
     ],
     "key": {
         "#": {
-            "item": "bundleditems:bundled_clay_balls"
+            "item": "minecraft:leather"
         }
     },
     "result": {
-        "item": "minecraft:clay_ball",
-        "count": 8
+        "item": "bundleditems:quiver",
+        "count": 1
     }
 }
